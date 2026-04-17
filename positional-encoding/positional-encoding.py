@@ -39,6 +39,6 @@ def positional_encoding(seq_len, d_model, base=10000.0):
     pes[:, even_indx] = np.sin(pes[:, even_indx])
     pes[:, odd_indx] = np.cos(pes[:, odd_indx])
         
-    
+
     return pes
                 
